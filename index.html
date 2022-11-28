@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube mini app-ii</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- sidebar -->
+    <div class="wrapper">
+        <input type="checkbox" id="btn" hidden>
+        <label for="btn" class="menu-btn">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </label>
+        <nav id="sidebar">
+            <div class="title">
+                <i class="fa-brands fa-youtube"></i> YouTube
+            </div>
+            <ul class="list-items">
+                <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="#"><i class="fas fa-sliders-h"></i>Explore</a></li>
+                <li><a href="#"><i class="fas fa-address-book"></i>Shorts</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i>Subscription</a></li>
+                <hr>
+                <li><a href="#"><i class="fas fa-stream"></i>Libarary</a></li>
+                <li><a href="#"><i class="fas fa-user"></i>HIstory</a></li>
+                <li><a href="#"><i class="fas fa-globe-asia"></i>Youre Videos</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i>Watch Later</a></li>
+                <!-- <div class="icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div> -->
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <div class="header">     
+        </div><p>         
+        </p></div>
+
+    <div id="navbar">
+        <img src="https://www.logo.wine/a/logo/YouTube/YouTube-White-Full-Color-Dark-Background-Logo.wine.svg"
+            alt="logo">
+        <input type="text" id="query" placeholder="Search">
+        <button style="font-size: 20px"  onclick="SearchingVideos()">🔎︎</button>
+        <button style="border: none ;font-size: 20px;"><i class="fa-solid fa-microphone"></i></button>
+        <button style="border: none;margin-left: 10%; font-size: 29px;" > 📽</button>
+       <button style="border: none; margin-right: 100px; font-size: 20px;"> <a href="./auth.html"> <i class="fa-regular fa-user"></i></a></button>
+        
+     
+    </div>
+
+    <div id="container">
+        <!-- appending all here -->
+    </div>
+
+</body>
+
+</html>
+<script src="./index.js"></script>
+
+

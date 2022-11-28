@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="./auth.css">
+</head>
+<body>
+<!-- Navbar -->
+<div id="navbar">
+    <a href="./index.html">
+    <img id="logo" src="https://www.logo.wine/a/logo/YouTube/YouTube-White-Full-Color-Dark-Background-Logo.wine.svg"
+        alt="logo"></a>
+    <input type="text" id="query" placeholder="Search">
+    <button style="font-size: 20px ; ;" onclick="SearchingVideos()">🔎︎</button>
+    <button style="border: none ;font-size: 20px;"><i class="fa-solid fa-microphone"></i></button>
+    <button style="border: none;margin-left: 10%; font-size: 29px;" > 📽</button>
+   <button style="border: none; margin-right: 100px; font-size: 20px;"> <a href="./auth.html"> <i class="fa-regular fa-user"></i></a></button>
+    
+ 
+</div>
+    <!-- auth part -->
+    <div id="container">
+        <div id="register_form" >
+            <h1 style="color:white;">Register</h1>
+            <form>
+                <input id="name" placeholder="Name" type="text">
+                <input id="email" placeholder="Email" type="text">
+                <input id="username" placeholder="Username" type="text">
+                <input id="password" placeholder="Password" type="password">
+                <input id="mobile" placeholder="Mobile" type="text">
+                <input id="description" placeholder="Description" type="text">
+            </form>
+            <button onclick="Register()">Sign Up</button>
+        </div>
+
+        <div id="login-form" >
+            <h1style="color:white;" >Login</h1>
+            <form action="">
+                <input id="login-username" placeholder="username" type="text">
+                <input id="login-password" placeholder="password" type="text">
+            </form>
+            <button onclick="Login ()">Login</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="auth.js"></script>
